@@ -1,0 +1,11 @@
+def counter(s, l):
+  string = str(s)
+  letter = str(l)
+  count = 0
+  for thing in string: 
+    if thing == letter :
+      count = count + 1
+  print(count)
+counter ('Pooja', 'a')
+counter ('payal', 'p')
+© 2021 GitHub, Inc.
